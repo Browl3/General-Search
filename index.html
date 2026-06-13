@@ -368,7 +368,14 @@
                     
                     if (currentSearchMode === 'raindrop') {
                         // Replace "exampleothatiwanttosearch" with the actual search query
-                        searchUrl = `https://app.raindrop.io/my/0/${encodeURIComponent(query)}/53781201`;
+                        searchUrl = `https://app.raindrop.io/my/53841039/${encodeURIComponent(query)}/53841039`;
+
+                
+                        //v1.2 https://app.raindrop.io/my/53841039/grand%20theft%20/53841039
+
+                        // searchUrl = `https://app.raindrop.io/my/0/${encodeURIComponent(query)}/53781201`; -ORGINAL SEARCH URL
+                        
+                        
                     } else {
                         // Google search
                         searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
